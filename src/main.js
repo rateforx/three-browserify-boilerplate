@@ -4,12 +4,12 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
 window.three = THREE;
 
-var scene;
-var renderer;
-var camera;
-var controls;
-var gui;
-var settings = {
+let scene;
+let renderer;
+let camera;
+let controls;
+let gui;
+let settings = {
     backgroundColor: '#111',
 };
 
